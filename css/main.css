@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+/* Global Styles */
+
+:root {
+  --Darkcyan: hsl(185, 75%, 39%);
+  --Verydarkdesaturatedblue: hsl(229, 23%, 23%);
+  --Darkgrayishblue: hsl(227, 10%, 46%);
+  --Darkgray: hsl(0, 0%, 59%);
+}
+
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
+
+body {
+  overflow: hidden;
+  background-color: var(--Darkcyan);
+  font-family: 'Kumbh Sans', sans-serif;
+  font-size: 1.125rem;
+}
+
+.img-top {
+  position: relative;
+}
+.img-top img {
+  position: absolute;
+  top: -220px;
+  left: 6px;
+}
+.img-bottom {
+  position: relative;
+}
+.img-bottom img {
+  position: absolute;
+}
+.img-bottom img {
+    position: absolute;
+    top: 278px;
+    right: 0;
+}
+
+.card {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  overflow: hidden;
+  margin: auto;
+  transform: translate(-50%, -50%);
+  width: 390px;
+  height: 380px;
+  background-color: white;
+  border-radius: 15px;
+}
+.card-top {
+  background-image: url('../images/bg-pattern-card.svg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+}
+.img img {
+  padding: 3px;
+  background: #fff;
+  border: 1px solid #fff;
+  position: relative;
+  top: 50px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.card-text {
+  padding-top: 80px;
+  text-align: center;
+  padding-bottom: 80px;
+}
+.card-text h1 {
+  font-size: 20px;
+  margin-right: 20px;
+  display: inline-block;
+}
+.card-text .text {
+  display: contents;
+}
+.card-text .text span {
+  color: var(--Darkgray);
+}
+.card-text .text span:first-child {
+  font-size: 20px;
+}
+.card-text .text span:last-child {
+  display: block;
+  margin-top: 18px;
+  font-size: 1rem;
+}
+.num {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+.num span {
+  font-weight: 700;
+  font-size: 20px;
+}
+.num p {
+  margin-top: 10px;
+  color: var(--Darkgray);
+  font-size: 13px;
+}
+
